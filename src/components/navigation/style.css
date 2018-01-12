@@ -1,0 +1,88 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background: #688593;
+}
+
+.menu-list {
+  margin: 0;
+  padding: 22px 0 22px 18px;
+  z-index: 1
+}
+
+li {
+  list-style-type: none;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+Link {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li:hover {
+  color: #4fbbb6;
+  outline: none;
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  cursor: pointer;
+  margin-right: 60px;
+  padding: 20px 0 10px 15px;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.bar {
+  width: 25px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #e7dbdb;
+  margin: 0 0 3px 5px;
+}
+
+.menu {
+  background: white;
+  width: 100%;
+  position: absolute;
+  top: -70px;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.hamburger-checkbox {
+  display: none;
+}
+
+.hamburger-checkbox:checked ~ .menu {
+  top: 40px;
+  opacity: 1;
+}
+
+.hamburger-checkbox:checked + .hamburger .bar1 {
+  transform: rotate(-45deg) translate(-6px, 5px);
+}
+
+.hamburger-checkbox:checked + .hamburger .bar2 {
+  opacity: 0;
+}
+
+.hamburger-checkbox:checked + .hamburger .bar3 {
+  transform: rotate(45deg) translate(-5px, -5px) ;
+}

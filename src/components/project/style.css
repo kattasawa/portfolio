@@ -1,0 +1,55 @@
+.project-container {
+  background-color: #f3efef;
+  height: auto;
+}
+
+h5 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  position: absolute;
+  color: #f1e4ea;
+  font-size: 37px;
+  margin-top: 25px;
+  border-bottom: solid #f1e4ea;
+  border-bottom-width: thin;
+}
+
+.hero-container, #work-hero-image {
+  width: 100%;
+}
+
+.projects {
+  background: #f3efef;
+  width: 100%;
+  height: auto;
+  /* margin-top: 42px;
+  margin-bottom: 30px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  .projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h5 {
+    font-size: 35px;
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
