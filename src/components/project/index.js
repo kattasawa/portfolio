@@ -1,6 +1,7 @@
 import React from "react"
 import Catch from "projectscatch/catch"
 import projects from "data/projects"
+// import graphics from "data/graphics"
 import "./style.css"
 
 export default class Project extends React.Component {

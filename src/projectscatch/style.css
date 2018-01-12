@@ -6,8 +6,8 @@
 }
 
 .inner {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   width: 280px;
   height: 280px;
   margin: 35px 10px auto 10px;
@@ -27,6 +27,7 @@
 .project-image-container {
   position: relative;
   width: 50%;
+  margin: 0;
 }
 
 #image-assignment {
@@ -60,7 +61,8 @@
 
 h1, .heading-assignment-image {
   color: white;
-  font-size: 26px;
+  font-size: 3vw;
+  text-align: center;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -97,6 +99,80 @@ h1 {
   /* display: inline-block; */
   margin-top: -13px;
 }
+
+
+
+/* .graphics-container {
+  margin-bottom: 20px;
+}
+
+.inner-graphics {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 280px;
+  margin: 35px 10px auto 10px;
+}
+
+.graphic-project-image-container {
+  position: relative;
+  width: 50%;
+}
+
+#graphic-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.graphic-project-image-container:hover .overlay {
+  opacity: 1;
+}
+
+/* .text-box {
+  display: flex;
+  flex-direction: column;
+}  */
+
+
+/* h1, .heading-assignment-image {
+  color: white;
+  font-size: 26px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.description {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.project-image-container #image-assignment {
+  width: 280px;
+  height: 280px;
+}
+
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  margin-top: -13px;
+}  */
+
 
 @media (max-width: 600px) {
   .work-container {
