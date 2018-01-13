@@ -1,43 +1,43 @@
 export default [
   {
-    id: "kaffe jn",
-    image: "../images/kaffe_jn.jpg",
-    name: "Johan & Nyström",
-    description: "Formgivning"
+    idg: "kaffe jn",
+    graphic: "../images/kaffe_jn.jpg",
+    company: "Johan & Nyström",
+    work: "Formgivning"
   }, {
-    id: "julteer jn",
-    image: "../images/teer_jn.jpg",
-    name: "Johan & Nyström",
-    description: "Formgivning"
+    idg: "julteer jn",
+    graphic: "../images/teer_jn.jpg",
+    company: "Johan & Nyström",
+    work: "Formgivning"
   }, {
-    id: "kaffe-etiketter",
-    image: "../images/kaffe_nero.jpg",
-    name: "DelaNero",
-    description: "Formgivning"
+    idg: "kaffe-etiketter",
+    graphic: "../images/kaffe_nero.jpg",
+    company: "DelaNero",
+    work: "Formgivning"
   }, {
-    id: "triaden",
-    image: "../images/triaden_pasta.jpg",
-    name: "Package Impact Design Award",
-    description: "Formgivning & konstruktion"
+    idg: "triaden",
+    graphic: "../images/triaden_pasta.jpg",
+    company: "Package Impact Design Award",
+    work: "Formgivning & konstruktion"
   }, {
-    id: "lillster",
-    image: "../images/lillster.jpg",
-    name: "Lillster",
-    description: "Formgivning & illustration"
+    idg: "lillster",
+    graphic: "../images/lillster.jpg",
+    company: "Lillster",
+    work: "Formgivning & illustration"
   }, {
-    id: "kaffe jacques",
-    image: "../images/kaffe_jaques.jpg",
-    name: "Café Jacques",
-    description: "Formgivning"
+    idg: "kaffe jacques",
+    graphic: "../images/kaffe_jaques.jpg",
+    company: "Café Jacques",
+    work: "Formgivning"
   }, {
-    id: "packplay",
-    image: "../images/world_rice.jpg",
-    name: "PackPlay",
-    description: "Formgivning & konstruktion"
+    idg: "packplay",
+    graphic: "../images/world_rice.jpg",
+    company: "PackPlay",
+    work: "Formgivning & konstruktion"
   }, {
-    id: "reklamvision",
-    image: "../images/reklamvision.jpg",
-    name: "Reklamvision",
-    description: "Formgivning & reklamkampanj"
+    idg: "reklamvision",
+    graphic: "../images/reklamvision.jpg",
+    company: "Reklamvision",
+    work: "Formgivning & reklamkampanj"
   }
 ]

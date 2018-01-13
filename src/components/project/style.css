@@ -29,6 +29,27 @@ h5 {
   justify-content: space-around;
 }
 
+.header-code-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.code-header {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.project-area {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 @media (max-width: 600px) {
   .projects {
     width: 100%;

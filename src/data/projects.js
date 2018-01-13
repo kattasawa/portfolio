@@ -23,54 +23,54 @@ export default [
     name: "Accordion",
     description: "Create an accordion",
     link: "https://kattasawa.github.io/Accordion/"
-  },
-  {
-    id: "kaffe jn",
-    image: "../images/kaffe_jn.jpg",
-    name: "Johan & Nyström",
-    description: "Formgivning",
-    link: ""
-  }, {
-    id: "julteer jn",
-    image: "../images/teer_jn.jpg",
-    name: "Johan & Nyström",
-    description: "Formgivning",
-    link: ""
-  }, {
-    id: "kaffe-etiketter",
-    image: "../images/kaffe_nero.jpg",
-    name: "DelaNero",
-    description: "Formgivning",
-    link: ""
-  }, {
-    id: "triaden",
-    image: "../images/triaden_pasta.jpg",
-    name: "Package Impact Design Award",
-    description: "Formgivning & konstruktion",
-    link: ""
-  }, {
-    id: "lillster",
-    image: "../images/lillster.jpg",
-    name: "Lillster",
-    description: "Formgivning & illustration",
-    link: ""
-  }, {
-    id: "kaffe jacques",
-    image: "../images/kaffe_jaques.jpg",
-    name: "Café Jacques",
-    description: "Formgivning",
-    link: ""
-  }, {
-    id: "packplay",
-    image: "../images/world_rice.jpg",
-    name: "PackPlay",
-    description: "Formgivning & konstruktion",
-    link: ""
-  }, {
-    id: "reklamvision",
-    image: "../images/reklamvision.jpg",
-    name: "Reklamvision",
-    description: "Formgivning & reklamkampanj",
-    link: ""
   }
+  // {
+  //   id: "kaffe jn",
+  //   image: "../images/kaffe_jn.jpg",
+  //   name: "Johan & Nyström",
+  //   description: "Formgivning",
+  //   link: ""
+  // }, {
+  //   id: "julteer jn",
+  //   image: "../images/teer_jn.jpg",
+  //   name: "Johan & Nyström",
+  //   description: "Formgivning",
+  //   link: ""
+  // }, {
+  //   id: "kaffe-etiketter",
+  //   image: "../images/kaffe_nero.jpg",
+  //   name: "DelaNero",
+  //   description: "Formgivning",
+  //   link: ""
+  // }, {
+  //   id: "triaden",
+  //   image: "../images/triaden_pasta.jpg",
+  //   name: "Package Impact Design Award",
+  //   description: "Formgivning & konstruktion",
+  //   link: ""
+  // }, {
+  //   id: "lillster",
+  //   image: "../images/lillster.jpg",
+  //   name: "Lillster",
+  //   description: "Formgivning & illustration",
+  //   link: ""
+  // }, {
+  //   id: "kaffe jacques",
+  //   image: "../images/kaffe_jaques.jpg",
+  //   name: "Café Jacques",
+  //   description: "Formgivning",
+  //   link: ""
+  // }, {
+  //   id: "packplay",
+  //   image: "../images/world_rice.jpg",
+  //   name: "PackPlay",
+  //   description: "Formgivning & konstruktion",
+  //   link: ""
+  // }, {
+  //   id: "reklamvision",
+  //   image: "../images/reklamvision.jpg",
+  //   name: "Reklamvision",
+  //   description: "Formgivning & reklamkampanj",
+  //   link: ""
+  // }
 ]

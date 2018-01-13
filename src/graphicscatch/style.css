@@ -1,42 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=Amiri");
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
-
-
-.work-container {
+.graphics-container {
   margin-bottom: 20px;
 }
 
-.inner {
-  /* display: flex;
-  flex-direction: column; */
+.inner-graphics {
+  display: flex;
+  flex-direction: column;
   width: 280px;
   height: 280px;
   margin: 35px 10px auto 10px;
 }
 
-/* #image-assignment {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  display: block;
-  opacity: 0.5;
-}
-#image-assignment:hover {
-  opacity: 1;
-} */
-
-.project-image-container {
+.graphic-project-image-container {
   width: 50%;
   position: relative;
 }
 
-#image-assignment {
+#graphic-image {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.overlay {
+.graphic-overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -49,20 +34,17 @@
   background-color: #cec3b8f5;
 }
 
-.project-image-container:hover .overlay {
+
+.graphic-project-image-container:hover .graphic-overlay {
   opacity: 1;
 }
 
-/* .text-box {
-  display: flex;
-  flex-direction: column;
-}  */
+
 
 
 h1, .heading-assignment-image {
   color: white;
-  font-size: 3vw;
-  text-align: center;
+  font-size: 26px;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -70,7 +52,7 @@ h1, .heading-assignment-image {
   -ms-transform: translate(-50%, -50%);
 }
 
-.description {
+.graphic-description {
   color: white;
   font-size: 18px;
   text-align: center;
@@ -81,7 +63,7 @@ h1, .heading-assignment-image {
   -ms-transform: translate(-50%, -50%);
 }
 
-.project-image-container #image-assignment {
+.graphic-project-image-container #graphic-image {
   width: 280px;
   height: 280px;
 }
@@ -89,44 +71,36 @@ h1, .heading-assignment-image {
 h1 {
   font-family: 'Nunito Sans', sans-serif;
   margin-bottom: 20px;
-  /* font-size: 2vw; */
 }
 
 .description {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
-  /* font-size: 1vw; */
-  /* display: inline-block; */
   margin-top: -13px;
 }
 
-
-
-
-
-
 @media (max-width: 600px) {
-  .work-container {
+  .graphics-container {
     display: flex;
     justify-content: center;
   }
-  .inner {
+  .inner-graphics {
     width: 480px;
     height: 480px;
     margin: 45px 10px auto 10px;
   }
 
-  .project-image-container {
+  .graphic-project-image-container {
     position: relative;
     width: 50%;
   }
 
-  .overlay {
+  .graphic-overlay {
     height: 480px;
     width: 480px;
   }
 
-  .project-image-container #image-assignment {
+  .graphic-project-image-container #graphic-image {
     width: 480px;
     height: 480px;
   }
