@@ -17,33 +17,38 @@ export default class Project extends React.Component {
 
         <div className="projects">
           <div className="header-code-container">
-          <div className="code-header">
-          <h4>.code</h4>
+            <div className="code-header">
+              <h2>.code</h2>
+            </div>
+            <div className="project-area">
+              {projects.map(item => (
+                <Catch
+                  key={item.id}
+                  url={item.id}
+                  image={item.image}
+                  name={item.name}
+                  description={item.description}
+                  link={item.link} />
+              ))}
+            </div>
           </div>
-          <div className="project-area">
-          {projects.map(item => (
-            <Catch
-              key={item.id}
-              url={item.id}
-              image={item.image}
-              name={item.name}
-              description={item.description}
-              link={item.link} />
-          ))}
-          </div>
-        </div>
         </div>
 
-        <div className="graphic-container">
-          <div className="projects">
-            {graphics.map(item => (
-              <Catchgraphic
-                key={item.idg}
-                url={item.idg}
-                graphic={item.graphic}
-                company={item.company}
-                work={item.work} />
-            ))}
+        <div className="projects">
+          <div className="header-graphic-container">
+            <div className="graphic-header">
+              <h2>.graphic-work</h2>
+            </div>
+            <div className="graphic-container">
+              {graphics.map(item => (
+                <Catchgraphic
+                  key={item.idg}
+                  url={item.idg}
+                  graphic={item.graphic}
+                  company={item.company}
+                  work={item.work} />
+              ))}
+            </div>
           </div>
         </div>
 

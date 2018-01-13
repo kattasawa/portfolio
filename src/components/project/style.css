@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Amiri");
+
 .project-container {
   background-color: #f3efef;
   height: auto;
@@ -8,7 +10,7 @@ h5 {
   font-weight: 400;
   position: absolute;
   color: #f1e4ea;
-  font-size: 37px;
+  font-size: 53px;
   margin-top: 25px;
   border-bottom: solid #f1e4ea;
   border-bottom-width: thin;
@@ -16,6 +18,15 @@ h5 {
 
 .hero-container, #work-hero-image {
   width: 100%;
+}
+
+h2 {
+  font-family: 'Amiri', serif;
+  font-weight: 400;
+  font-size: 65px;
+  color: black;
+  margin-bottom: 0;
+  /* margin-top: 6px; */
 }
 
 .projects {
@@ -50,6 +61,28 @@ h5 {
   justify-content: space-around;
 }
 
+
+.header-graphic-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.graphic-header {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.graphic-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 @media (max-width: 600px) {
   .projects {
     width: 100%;
@@ -57,9 +90,10 @@ h5 {
     display: flex;
     flex-wrap: wrap;
   }
-  h5 {
-    font-size: 35px;
+  h2 {
+    font-size: 42px;
     margin-top: 25px;
+    margin-bottom: 0;
   }
 }
 
