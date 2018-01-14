@@ -15,7 +15,7 @@ export default [
     id: "radio-player",
     image: "../images/radio-player-assignment.jpg",
     name: "Radio Player",
-    description: "A radio player using the Sveriges Radio API",
+    description: "Sveriges Radio API",
     link: "https://kattasawa.github.io/Radio-player/"
   }, {
     id: "accordion",

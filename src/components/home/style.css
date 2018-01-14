@@ -296,6 +296,7 @@ div.foo{
   @media (max-width: 600px) {
     h5 {
       font-size: 28px;
+      margin-top: 14px;
     }
     h6 {
       font-size: 17px;
