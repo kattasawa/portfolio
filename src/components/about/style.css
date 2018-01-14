@@ -69,3 +69,11 @@ h3 {
   width: auto;
   height: 300px;
 }
+
+@media (max-width: 600px) {
+  #text-about-me {
+    font-size: 12px;
+    margin: 35px 20px auto 20px;
+    display: block;
+  }
+}

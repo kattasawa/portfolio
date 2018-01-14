@@ -25,7 +25,7 @@ class About extends React.Component {
               Right now, I´m participating in Technigo´s twelve week boot-camp, learning HTML, CSS, JavaScript and React. At Technigo we work by following basic agile methods, doing code-assignments every day and at the same time work with bigger team projects. It´s going fast, learning alot.<br />
               <br />For me, the problem solving, that comes with coding, is in so many dimensions which gives coding a great creative space and that´s very inspiring. Another part of coding that I like is that the development opportunities seems to be endless, that gives me eager to learn more and go deeper.<br />
               <br />With a background in graphic form, I´m looking forward to new challenges within front-end development, may be able to unite this skills.  I´m humble and responsible, focused and committed.<br />
-              <br />If you´re intrested in collaboration, just reach out!<br />
+              <br />If you´re interested in collaboration, just reach out!<br />
               <br />
               <h6 id="signatur">/ Katarina Sjölund</h6>
             </p>
