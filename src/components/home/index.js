@@ -52,17 +52,23 @@ class Home extends React.Component {
 
 
           <div className="about-text">
-            <p>With a background in graphic form, both digital and print, I´m looking forward
-            to new challenges within front-end development. I´m humble and responsive, independent,
-            focused and committed. Right now, I'm participating in Technigo's web
-            developer boot-camp.
-            </p>
+            <div className="text-box">
+              <p>With a background in graphic form, both digital and print, I´m now looking forward
+                to new challenges within front-end development. I´m humble and responsible, focused
+                and committed. <br />
+                <br />
+                Right now, I'm participating in Technigo's web
+                developer boot-camp.<Link to="/about"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+              </p>
+            </div>
           </div>
         </div>
 
         <div className="feature-two">
           <div className="work-text">
-            <p>Here I have collected a small sample of projects and works.</p>
+            <p>Here I have collected a small sample of projects and works, both coding and graphics.
+              I built this site in React.<Link to="/project"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+            </p>
           </div>
 
           <div className="work-image-container">

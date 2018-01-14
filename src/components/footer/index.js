@@ -5,16 +5,16 @@ import "./style.css"
 
 class Footer extends React.Component {
 
-render() {
+  render() {
     return (
       <div className="footer-container">
         <div className="footer-flex">
           <div className="icons-link">
             <Link to="https://github.com/kattasawa" target="_blank">
-            <img id="github-image" src="/images/github_icon.svg" alt="github icon" />
+              <img id="github-image" src="/images/github_icon.svg" alt="github icon" />
             </Link>
-              <Link to="https://github.com/kattasawa" target="_blank">
-            <img id="linkedin-image" src="/images/linkedin_icon.png" alt="linkedin icon" />
+            <Link to="https://www.linkedin.com/in/katarina-sj%C3%B6lund-8021b971/" target="_blank">
+              <img id="linkedin-image" src="/images/linkedin_icon.png" alt="linkedin icon" />
             </Link>
           </div>
           <div className="contacts-info">
@@ -23,7 +23,7 @@ render() {
         </div>
       </div>
     )
-}
+  }
 
 }
 

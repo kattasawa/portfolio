@@ -10,7 +10,7 @@ h5 {
   font-weight: 400;
   position: absolute;
   color: #f1e4ea;
-  font-size: 53px;
+  font-size: 42px;
   margin-top: 25px;
   border-bottom: solid #f1e4ea;
   border-bottom-width: thin;
@@ -26,15 +26,12 @@ h2 {
   font-size: 65px;
   color: black;
   margin-bottom: 0;
-  /* margin-top: 6px; */
 }
 
 .projects {
   background: #f3efef;
   width: 100%;
   height: auto;
-  /* margin-top: 42px;
-  margin-bottom: 30px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

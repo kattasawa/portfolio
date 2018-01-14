@@ -17,13 +17,11 @@
 }
 
 h5 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  /* position: absolute;
-  text-align: center; */
+  white-space: nowrap;
   color: #f1e4ea;
-  font-size: 20px;
-margin-top: 12px;
+  font-size: 42px;
+  margin-top: 12px;
   border-bottom: solid #f1e4ea;
   border-bottom-width: thin;
 }
@@ -68,29 +66,8 @@ h6 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 20px;
   color: #35454c;
-  /* position: absolute; */
   margin-top: 196px;
 }
-
-/* @keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(350px);
-  }
-
-}
-
-.fade {
-  animation: slide 4s infinite ease-out;
-  left: 0;
-
-} */
-
-
-
 
 .hero-container {
   width: 100%;
@@ -239,7 +216,6 @@ div.foo{
     font-weight: 400;
     font-size: 65px;
     color: black;
-    /* margin-top: 6px; */
   }
 
   .about-text {
@@ -248,14 +224,22 @@ div.foo{
     height: 300px;
   }
 
+  .text-box {
+
+  }
+
   p {
     font-family: 'Amiri', serif;
     font-weight: 400;
     font-size: 17px;
     text-indent: 50px;
     color: black;
-    position: absolute;
-    margin: 75px 28px auto 45px;
+    line-height: 1.5;
+    margin: 82px 45px auto 45px;
+  }
+
+  .fa {
+    margin-left: -38px;
   }
 
   .feature-two {
