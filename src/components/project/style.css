@@ -28,7 +28,7 @@ h2 {
   margin-bottom: 0;
 }
 
-.projects {
+.projects, .projects {
   background: #f3efef;
   width: 100%;
   height: auto;

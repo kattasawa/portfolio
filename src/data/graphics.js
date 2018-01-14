@@ -17,7 +17,7 @@ export default [
   }, {
     idg: "triaden",
     graphic: "../images/triaden_pasta.jpg",
-    company: "Package Impact Design Award",
+    company: "PIDA",
     work: "Formgivning & konstruktion"
   }, {
     idg: "lillster",
