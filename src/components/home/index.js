@@ -58,7 +58,7 @@ class Home extends React.Component {
                 and committed. <br />
                 <br />
                 Right now, I'm participating in Technigo's web
-                developer boot-camp.<Link to="/about"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+                developer boot-camp.<Link to="/about"><i className="fa fa-arrow-right" aria-hidden="true"></i></Link>
               </p>
             </div>
           </div>
@@ -67,7 +67,7 @@ class Home extends React.Component {
         <div className="feature-two">
           <div className="work-text">
             <p>Here I have collected a small sample of projects and works, both coding and graphics.
-              I built this site in React.<Link to="/project"><i class="fa fa-arrow-right" aria-hidden="true"></i></Link>
+              I built this site in React.<Link to="/project"><i className="fa fa-arrow-right" aria-hidden="true"></i></Link>
             </p>
           </div>
 
