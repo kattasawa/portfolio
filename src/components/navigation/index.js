@@ -17,9 +17,9 @@ class Navigation extends React.Component {
 
         <nav className="menu">
           <ul className="menu-list">
-            <li><Link to="/" onClick={() => this.collapse("hamburger-checkbox:checked", "menu")}>Home</Link></li>
-            <li><Link to="/project" onClick={() => this.collapse("hamburger-checkbox:checked", "menu")}>Work</Link></li>
-            <li><Link to="/about" onClick={() => this.collapse("hamburger-checkbox:checked", "menu")}>About</Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/project">Work</Link></li>
+            <li><Link to="/about">About</Link></li>
           </ul>
         </nav>
       </div>
