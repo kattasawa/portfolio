@@ -73,7 +73,7 @@ h2 {
 }
 
 .graphic-container {
-  width: 100%;
+  width: 1200px;
   height: auto;
   display: flex;
   flex-wrap: wrap;
