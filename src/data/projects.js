@@ -6,11 +6,11 @@ export default [
     description: "Build a clock in React.",
     link: "https://kattasawa.github.io/Clock-Time-flies/"
   }, {
-    id: "yearbook",
-    image: "../images/flexbox-assignment.jpg",
-    name: "Yearbook",
-    description: "Create a yearbook with flexbox.",
-    link: "https://kattasawa.github.io/assignment-flexbox/"
+    id: "grid",
+    image: "../images/grid-assignment.jpg",
+    name: "Helvetica Grid",
+    description: "Created a CSS Grid.",
+    link: "https://kattasawa.github.io/Helvetica-grid/"
   }, {
     id: "radio-player",
     image: "../images/radio-player-assignment.jpg",
@@ -23,6 +23,12 @@ export default [
     name: "Accordion",
     description: "Create an accordion",
     link: "https://kattasawa.github.io/Accordion/"
+  }, {
+    id: "yearbook",
+    image: "../images/flexbox-assignment.jpg",
+    name: "Yearbook",
+    description: "Create a yearbook with flexbox.",
+    link: "https://kattasawa.github.io/assignment-flexbox/"
   }
   // {
   //   id: "kaffe jn",
