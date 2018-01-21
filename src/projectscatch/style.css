@@ -75,6 +75,7 @@ h1, .heading-assignment-image {
 @media (max-width: 600px) {
   .work-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
   .inner {
@@ -100,5 +101,29 @@ h1, .heading-assignment-image {
 }
 
 @media (min-width: 600px) and (max-width: 900px) {
+  .work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .inner {
+    width: 380px;
+    height: 380px;
+    margin: 45px 10px auto 10px;
+  }
 
+  .project-image-container {
+    position: relative;
+    width: 50%;
+  }
+
+  .overlay {
+    height: 380px;
+    width: 380px;
+  }
+
+  .project-image-container #image-assignment {
+    width: 380px;
+    height: 380px;
+  }
 }

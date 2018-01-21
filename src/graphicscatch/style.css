@@ -101,5 +101,28 @@ h1, .heading-assignment-image {
 }
 
 @media (min-width: 600px) and (max-width: 900px) {
+  .graphics-container {
+    display: flex;
+    justify-content: center;
+  }
+  .inner-graphics {
+    width: 380px;
+    height: 380px;
+    margin: 45px 10px auto 10px;
+  }
 
+  .graphic-project-image-container {
+    position: relative;
+    width: 50%;
+  }
+
+  .graphic-overlay {
+    height: 380px;
+    width: 380px;
+  }
+
+  .graphic-project-image-container #graphic-image {
+    width: 380px;
+    height: 380px;
+  }
 }

@@ -51,11 +51,10 @@ h2 {
 }
 
 .project-area {
-  width: 100%;
+  width: 1200px;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 
@@ -86,10 +85,17 @@ h2 {
     margin-top: 14px;
   }
   .projects {
-    width: 100%;
+    width: 600px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .project-area {
+    width: 600px;
+  }
+  .graphic-container {
+    width: 600px;
   }
   h2 {
     font-size: 42px;
@@ -100,12 +106,17 @@ h2 {
 
 @media (min-width: 600px) and (max-width: 900px) {
   .projects {
-    width: 100%;
+    width: 900px;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
-
+  .project-area {
+    width: 900px;
+  }
+  .graphic-container {
+    width: 900px;
+  }
 }

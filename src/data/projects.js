@@ -12,6 +12,12 @@ export default [
     description: "Created a CSS Grid.",
     link: "https://kattasawa.github.io/Helvetica-grid/"
   }, {
+    id: "todo-app",
+    image: "../images/todo-assignment.jpg",
+    name: "To do´s app",
+    description: "A todo-app with localstorage",
+    link: "https://kattasawa.github.io/Todo-app/"
+  }, {
     id: "radio-player",
     image: "../images/radio-player-assignment.jpg",
     name: "Radio Player",
