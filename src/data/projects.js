@@ -35,6 +35,12 @@ export default [
     name: "Yearbook",
     description: "Create a yearbook with flexbox.",
     link: "https://kattasawa.github.io/assignment-flexbox/"
+  }, {
+    id: "ticktail",
+    image: "../images/ticktail-store.jpg",
+    name: "Ticktail",
+    description: "Built a Ticktail store",
+    link: "https://kattasawa.github.io/Ticktail-store/"
   }
   // {
   //   id: "kaffe jn",
