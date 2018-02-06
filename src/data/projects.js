@@ -40,7 +40,7 @@ export default [
     image: "../images/ticktail-store.jpg",
     name: "Ticktail",
     description: "Built a Ticktail store",
-    link: "https://kattasawa.github.io/"
+    link: "https://kattasawa.github.io/Ticktail-store/"
   }
   // {
   //   id: "kaffe jn",
