@@ -30,22 +30,22 @@ export default [
     description: "Create an accordion",
     link: "https://kattasawa.github.io/Accordion/"
   }, {
-    id: "yearbook",
-    image: "../images/flexbox-assignment.jpg",
-    name: "Yearbook",
-    description: "Create a yearbook with flexbox.",
-    link: "https://kattasawa.github.io/assignment-flexbox/"
-  }, {
     id: "ticktail",
     image: "../images/ticktail-store.jpg",
     name: "Ticktail",
     description: "Built a Ticktail store",
     link: "https://kattasawa.github.io/Ticktail-store/"
   }, {
+    id: "yearbook",
+    image: "../images/flexbox-assignment.jpg",
+    name: "Yearbook",
+    description: "Create a yearbook with flexbox.",
+    link: "https://kattasawa.github.io/assignment-flexbox/"
+  }, {
     id: "final-project",
     image: "../images/final-project.jpg",
     name: "Stötta mamma - DOULA",
-    description: "Built a website with a login, an admin-page and a contact-form for direct message",
+    description: "Frontend & backend",
     link: "https://final-project-stotta-mamma.netlify.com/#/"
   }
   // {
