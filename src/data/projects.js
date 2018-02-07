@@ -41,6 +41,12 @@ export default [
     name: "Ticktail",
     description: "Built a Ticktail store",
     link: "https://kattasawa.github.io/Ticktail-store/"
+  }, {
+    id: "final-project",
+    image: "../images/final-project.jpg",
+    name: "Stötta mamma - DOULA",
+    description: "Built a website with a login, an admin-page and a contact-form for direct message",
+    link: "https://final-project-stotta-mamma.netlify.com/#/"
   }
   // {
   //   id: "kaffe jn",
